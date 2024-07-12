@@ -15,7 +15,7 @@ public class ApplicationController {
     public String getMyDetails(){
         HashMap bankDetails=new HashMap();
         //ArrayList bankDetails = new ArrayList();
-        bankDetails.put("name","Baskar");
+        bankDetails.put("name","Karthiga");
         bankDetails.put("acc","4");
         bankDetails.put("bal","5000");
         if (bankDetails.containsKey("name1")){
